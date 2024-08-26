@@ -1,0 +1,374 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+@font-face{
+    font-family: 'd1';
+    src: url("font/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+
+/* Header start */
+header{
+    background-color:white;
+    padding: 10px;
+}
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .container nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+header .container nav ul li a{
+    text-decoration: none;
+    font-family: 'd1';
+    font-size: 14px;
+    font-weight: 600;
+    color: #5f88a3;
+}
+header .container .download-btn button{
+    width: 148px;
+    height: 45px;
+    background-color:  #f3223b;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-family: 'd1'; 
+}
+/* Header end */
+
+/* main */
+
+/*DOMINO'S ONLINE ORDER BANNER container1 start */
+main .container1{
+ display: flex;
+    width: 100%;
+    height:460px;
+    background-color: #1a5ca3; 
+}
+main .container1 .container-row{
+    display: flex;
+    flex-direction: column;
+    padding: 110px;
+    margin-top: 50px;
+    gap:15px
+}
+main .container1 .container-row .content{
+    font-family: 'd1';
+}
+main .container1 .container-row .content h1{
+    color: white;
+}
+main .container1 .container-row .content p{
+    color: #47a0ff;
+}
+main .container1 .container-row .order-btn button{
+    background-color: #1fb31a;
+    border: none;
+    width: 400px;
+    height: 60px;
+    color: white;
+    font-family: 'd1';
+    font-size: 20px;
+    font-weight: 800;
+}
+main .container1 .header-img img{
+    padding-top: 27px;
+}
+
+/* container1 end */
+
+/*COPPENS AND OFFER BANNER container2 start */
+
+main .container2 .home{
+    background-color: rgba(147, 168, 201, 0.1);
+    height: 30px;
+}
+main .container2 .home p{
+    color: #47a0ff;
+    font-family: 'd1';
+    font-size:15px;
+    padding: 5px;
+    margin-left: 10px;
+}
+main .container2 .coppon h1{
+    font-family: 'd1';
+    font-weight: 800;
+    padding-left: 100px;
+    margin-top: 50px;
+    color: #708aa5;   
+}
+main .container2 .image{
+    display: flex;
+    justify-content:space-evenly;   
+}
+main .container2 .image img{ 
+    width: 630px;
+    height: 250px;
+}
+/* container2 end */
+
+
+/*EXPLORE HEAD container3 start */
+main .container3 .explore h1{
+    font-family: 'd1';
+    font-weight: 800;
+    padding-left: 100px;
+    margin-top: 50px;
+    color: #708aa5;
+}
+/* container3 end */
+
+/* DOMINO'S ORDER OPTIONS container3 start */
+.container4 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.container4 .card1 {
+    width: 310px;
+    height: 256px;
+    border: 1px dotted #979797;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'd1';   
+}
+.container4 .card2 {
+    width: 310px;
+    height: 256px;
+    border: 1px dotted #979797;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'd1';
+}
+.container4 .card3 {
+    width: 310px;
+    height: 256px;
+    border: 1px dotted #979797;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'd1';
+}
+.container4 .card4 {
+    width: 310px;
+    height: 256px;
+    border: 1px dotted #979797;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'd1';   
+}
+.container4 .card1 .image1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}.container4 .card2 .image2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container4 .card3 .image3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container4 .card4 .image4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container4 .card1 .image1 p{
+    text-align: center;
+    margin: 16px ;
+}
+.container4 .card2 .image2 p{
+    text-align: center;
+    margin: 16px ;
+}
+.container4 .card3 .image3 p{
+    text-align: center;
+    margin: 16px ;
+}
+.container4 .card4 .image4 p{
+    text-align: center;
+    margin: 16px ;
+}
+.container4 .card1 .box1 span p{
+    color: #de042e;
+    font-weight: 800;
+    margin-left: 90px;
+    padding-top: 15px;   
+}
+.container4 .card2 .box2 span p{
+    color: #de042e;
+    font-weight: 800;
+    margin-left: 60px;
+    padding-top: 15px;
+}
+.container4 .card3 .box3 span p{
+    color: #de042e;
+    font-weight: 800;
+    margin-left: 100px;
+    padding:15px;
+}
+.container4 .card4 .box4 span p{
+    color: #de042e;
+    font-weight: 800;
+    margin-left: 110px;
+    padding-top: 15px;
+}
+/* container 4 end */
+
+/*DOMINO'S EXCLUSIVE OFFER container 5 start */
+.container5{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(189, 209, 242 ,0.3);
+}
+.container5 .box {
+    display: flex;
+}
+.container5 .box .image img{
+    height: 450px;
+    width: 735;
+    padding-bottom: 53px;
+    margin-left: 150px;
+}
+.container5 .box .content h1 {
+    padding-top: 100px;
+    margin-left: 150px;
+    font-family: 'd1';
+    font-weight: 800;
+    color: #59688c;
+}
+.container5 .box .content p{
+    padding-top: 30px;
+    margin-left: 150px;
+    font-family: 'd1';
+    font-size: 22px;
+    color: #8899c0;    
+}
+.container5 .box .content .img{
+display: flex;
+gap: 25px;
+margin-top: 10px;
+}
+.container5 .box .content .img1{
+    margin-left: 150px;
+}
+/* container5 end */
+
+
+/*DECRIPTION OF DOMINO'S container6 start */
+.container6  h1{
+    color: #006491;
+    font-family: 'd1';
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.container6 p{
+    color: #54565b;
+    font-family: 'd1';
+    padding-top: 15px;
+    margin-left: 30px;
+}
+/* container6 end */
+
+
+/*DOMINO'S MENU BUTTONS container 7 start */
+.container7 .button{
+    padding-top: 50px;
+}
+.container7 .button button {
+    font-family: 'd1';
+    margin: 4px;
+    background-color: #f3ecec;
+    border-radius: 3px;
+    border-color: #b0bbc3;
+    font-size: 13px;
+}
+/* container 7 end */
+
+/* DOMINO'S FOOTER container 8 start */
+.footer{
+    width: 100%;
+    height: 410px;
+    background-color: #222e3a;
+}
+.footer .line{
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer .line ul li{
+    list-style-type: none;
+    color: white;
+    font-family: 'd1';
+    padding-top: 19px;
+    font-size: 18px;
+}
+.footer .line .content1 h4{
+    color:#546273;
+    font-family: 'd1';
+    padding-top: 40px;
+    font-size: 21px;
+}.footer .line .content2 h4{
+    color:#546273;
+    font-family: 'd1';
+    padding-top: 40px;
+    font-size: 21px;
+}
+.footer .line .content3 h4{
+    color:#546273;
+    font-family: 'd1';
+    padding-top: 40px;
+    font-size: 21px;
+}
+.footer .line .content4 h4{
+    color:#546273;
+    font-family: 'd1';
+    padding-top: 40px;
+    font-size: 21px;
+}
+.footer .line .content5 h4{
+    color:#546273;
+    font-family: 'd1';
+    padding-top: 40px;
+    font-size: 21px;
+}
+.footer .line .content6 h4{
+    color:#546273;
+    font-family: 'd1';
+    padding-top: 40px;
+    font-size: 21px;
+}
+.footer .line .content6 img{
+    padding-top: 20px;
+    margin: 10p; 
+}
+.copy{
+    width: 100%;
+    height: 60px;
+    background-color: #1a2735;
+    text-align: center;
+    color: #5c6f83;
+    padding-top: 20px;
+}
+/* container 8 END */
+
+/* DOMINO'S CLONE PROJECT DONE */
